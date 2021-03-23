@@ -1,0 +1,1604 @@
+header{
+
+}
+
+/*css designs for all items on all pages */
+
+.navbar ul{
+
+  float:right;
+  list-style-type: none;
+  margin-top: 25px;
+  padding-right: 10px;
+
+}
+.navbar ul li{
+  display:inline-block;
+}
+.navbar ul li.active a{
+  background-color: white;
+  color:black;
+  border-color: white;
+
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color:white;
+  padding: 5px 20px;
+  border: 1px solid;
+  transition: 0.6s ease;
+}
+.navbar ul li a:hover{
+  background-color: white;
+  color:black;
+  border-color: white;
+
+}
+
+.logo img{
+  float:left;
+  width: 150px;
+  height:auto;
+}
+
+.navbar{
+  max-width: 1200px;
+  margin: auto;
+  float:right;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-size: cover;
+  font-family: sans-serif;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url(images/clothes2.png);
+  width: 100%;
+  height: 100vh;
+
+  border: none;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+
+
+
+
+}
+
+/* .backgroundimg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url(images/clothes2.png);
+    width: 100%;
+    height: 100vh;
+    filter: blur(8px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(8px);
+    z-index:-1;
+    border: none;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+} */
+
+.title{
+  text-align: center;
+  padding: 50px 0 20px;
+}
+
+.loginpage .title h1{
+  margin: 0;
+  padding-right:25%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.loginpage .container{
+  width: 50%;
+  height: 400px;
+  background-color: white;
+  margin:0 auto;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+
+.loginpage .container .right{
+  float:right;
+  width: 50%;
+  height: 410px;
+  background: url(images/clothes2.png);
+  background-size: cover;
+  box-sizing: border-box;
+
+}
+
+.loginpage .Loginform{
+  width: 100%;
+  padding: 45px 40px;
+  box-sizing: border-box;
+  height: 410px;
+  background: white;
+
+}
+
+.loginpage .container .left{
+  float: left;
+  width: 50%;
+  height: 410px;
+  box-sizing: border-box;
+}
+
+.registerform .title h1{
+  margin: 0;
+  padding-left:40%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.registerform .container{
+  width: 50%;
+  height: 450px;
+  background-color: white;
+  margin:0 auto;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.registerform .container .left{
+  float:left;
+  width: 50%;
+  height: 450px;
+  background: url(images/clothes2.png);
+  background-size: cover;
+  box-sizing: border-box;
+
+}
+
+.registerform .container .right{
+  float: right;
+  width: 50%;
+  height: 400px;
+  box-sizing: border-box;
+}
+.registerform .Loginform{
+  width: 100%;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  height: 400px;
+  background: white;
+  line-height: 0.5px;
+
+}
+
+.existinguser{
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+
+
+
+.Loginform button{
+  width: 100%;
+  height: 30px;
+}
+
+.Loginform p{
+  font-weight: bold;
+}
+
+.registerform .Loginform p{
+  font-size: 12px;
+}
+
+.Loginform input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.Loginform input[type="text"], [type="password"]{
+  border: none;
+  border: 2px solid grey;
+  outline: none;
+  height:30px;
+
+
+}
+
+.Loginform input[type="text"]:focus{
+  border: 2px solid black;
+
+}
+
+.Loginform input[type="password"]:focus{
+  border: 2px solid black;
+}
+
+.Loginform input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  color: white;
+  background: black;
+}
+.Loginform input[type="submit"]:hover{
+  border: 2px solid black;
+  outline: none;
+  height: 40px;
+  color: black;
+  background: white;
+  transition: 0.6s ease;
+}
+
+
+.footer{
+
+    position: absolute;
+    top:90%;
+    left:85%;
+
+}
+
+.footer-content li{
+  padding-left: 8px;
+}
+
+.footer ul{
+  float:right;
+  list-style-type: none;
+}
+.footer ul li{
+  display:inline-block;
+}
+
+.footer ul li a{
+  text-decoration: none;
+  color:white;
+  padding: 10px 10px;
+  transition: 0.6s ease;
+  position: relative;
+  display: block;
+}
+
+.footer ul li a:hover{
+  background-color: black;
+
+  transform:translate(0, -5px);
+}
+
+.footer ul li:nth-child(1) a:hover{
+  background-color: #e4405f;
+
+}
+.footer ul li:nth-child(2) a:hover{
+  background-color: #3bacee;
+}
+.footer ul li:nth-child(3) a:hover{
+  background-color: #3b5999;
+}
+.footer ul li:nth-child(4) a:hover{
+  background-color: #0077b5;
+}
+
+.hometitle{
+  color: white;
+  position: absolute;
+  top:50%;
+  left:75%;
+  transform: translate(-50%,-50%);
+
+}
+.mainhometitle{
+  color: white;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.mainhometitle h1{
+  color:white;
+  font-size: 70px;
+  letter-spacing: 16px;
+
+}
+
+.hometitle h1{
+  color:white;
+  font-size: 70px;
+  letter-spacing: 16px;
+
+}
+
+.livetitle{
+  color: white;
+  position:fixed;
+  top:5%;
+  left:15%;
+
+}
+
+.homebuttons{
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover{
+  background-color: white;
+  color:black;
+  transform:translate(0, -10px);
+
+}
+.successtitle h1{
+  color:black;
+  font-size: 70px;
+  left:30%;
+  position: absolute;
+
+
+
+}
+
+.successpage input{
+  border: 1px solid white;
+  padding: 10px 30px;
+  background-color: black;
+  left:20%;
+  top:70%;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  transition: 0.6s ease;
+  width:60%;
+
+
+}
+
+.successpage input:hover{
+  background-color: white;
+  color:black;
+  border:2px solid black;
+
+
+}
+
+.successcontainer{
+
+    top:20%;
+    left:25%;
+    position: absolute;
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    margin:0 auto;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+
+  }
+
+
+  .errortitle h1{
+    color:black;
+    font-size: 70px;
+    left:38%;
+    position: absolute;
+
+
+
+  }
+
+  .errorpage input{
+    border: 1px solid white;
+    padding: 10px 30px;
+    background-color: black;
+    left:20%;
+    top:70%;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    width:60%;
+
+
+  }
+
+  .errorpage input:hover{
+    background-color: white;
+    color:black;
+    border:2px solid black;
+
+
+  }
+
+  .errorcontainer{
+
+      top:20%;
+      left:25%;
+      position: absolute;
+      width: 50%;
+      height: 400px;
+      background-color: white;
+      margin:0 auto;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+
+    }
+
+    .profilecontainer{
+
+        top:10%;
+        left:37%;
+        position: absolute;
+        width: 400px;
+        height: 600px;
+        background-color: white;
+        margin:0 auto;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+
+      }
+
+      .info{
+        margin-right: 16px;
+        padding: 6px;
+      }
+
+      .maincontainerp{
+
+        padding: 20px;
+
+      }
+      .profileimg{
+        height:230px;
+        width:400px;
+        position: relative;
+      }
+
+      .profileimgsearch{
+        height:230px;
+        width:400px;
+        position: relative;
+      }
+      .titlep{
+
+        position: absolute;
+        top:82.3%;
+        background-color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        border:1px solid black;
+        border-bottom: none;
+        border-left: none;
+
+
+        text-align: center;
+        line-height: 0.01px;
+
+
+
+      }
+
+      .prfbtn{
+          border: 1px solid white;
+          padding: 10px 10px;
+          color: white;
+          background-color: black;
+          text-decoration: none;
+          transition: 0.6s ease;
+          text-align: center;
+          margin-left: 40px;
+          margin-top: 10px;
+
+      }
+      .prfbtn:hover {
+          border: 1px solid black;
+          padding: 10px 10px;
+          color: black;
+          background-color: white;
+          text-decoration: none;
+          transition: 0.6s ease;
+
+      }
+
+      #prftable td{
+        word-wrap: break-word;
+        overflow: auto;
+      }
+      #prftable{
+        table-layout: fixed;
+        width: 100%;
+
+
+      }
+
+
+
+
+      .maincontainerp td:first-child {
+        font-weight: bold
+      }
+
+      .maincontainerp td{
+         border-bottom: 1px solid #ddd;
+      }
+
+      #searchbar{
+        position: absolute;
+        top:60%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 600px;
+        height: 30px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: 0.5px solid black;
+
+      }
+      #searchbar:hover{
+        background-color: white;
+        color:black;
+        border:2px solid black;
+        transition: 0.6s ease;
+
+      }
+      #searchbar:focus{
+        background-color: white;
+        color:black;
+        border:2px solid black;
+        transition: 0.6s ease;
+
+      }
+
+      #searchbtn{
+        top: 60%;
+        left: 50%;
+        width: 20%;
+        position: absolute;
+        background: rgba(0,0,0,0.5);
+        color: white;
+        height:30px;
+        margin-top: 20px;
+        border:none;
+        transform: translate(-50%,70%);
+
+      }
+      #searchbtn:hover{
+        background-color: white;
+        color:black;
+        border:2px solid black;
+        transition: 0.6s ease;
+
+      }
+
+      .searchtitle{
+        position: absolute;
+        top:47%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        color:white;
+        font-size: 40px;
+        letter-spacing: 16px;
+        font-weight: bold;
+      }
+
+
+      .maincontainers{
+        text-align: center;
+        width:100%;
+      }
+      .resultscontainer{
+        width: 670px;
+        background: white;
+        margin-top: 5px;
+        margin-left: 20px;
+
+      }
+
+      .searchtable table{
+
+        border-collapse: collapse;
+        width: 670px;
+        table-layout: fixed;
+
+        overflow: auto;
+
+
+
+      }
+
+      .searchtable td:first-child {
+        font-weight: bold
+
+      }
+
+      .searchtable td{
+
+
+         word-wrap: break-word;
+         overflow:hidden;
+         display: block;
+         white-space:nowrap;
+         overflow-x: auto;
+
+
+
+      }
+
+      .searchtable tr{
+        display: inline;
+      }
+      .searchtable td:nth-child(even) {
+           border-bottom: 1px solid #ddd;
+
+
+      }
+      .searchtable th,td{
+        vertical-align:top;
+        white-space: nowrap;
+      }
+      .overflow-container {
+        max-height: 100px;
+        overflow: auto;
+      }
+
+      #searchbar2{
+
+        margin-top: 20px;
+        width: 600px;
+        height: 30px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: 0.5px solid white;
+        display:inline-block;
+        font-size: 17px;
+      }
+      #searchbar2:hover{
+        background-color: white;
+        color:black;
+        border:2px solid black;
+        transition: 0.6s ease;
+
+      }
+      #searchbar2:focus{
+        background-color: white;
+        color:black;
+        border:2px solid black;
+        transition: 0.6s ease;
+
+      }
+
+      #searchbtn2{
+        display: inline-block;
+
+        background: rgba(0,0,0,0.5);
+        color: white;
+        height:30px;
+        border:0.5px solid white;
+        font-size: 17px;
+        margin-left: 20px;
+
+
+      }
+      #searchform{
+        display: inline-block;
+      }
+      #searchbtn2:hover{
+        background-color: white;
+        color:black;
+        border:2px solid black;
+        transition: 0.6s ease;
+
+      }
+
+    .nresult{
+      color: white;
+      margin-left:20px;
+    }
+
+    .maincontainerps{
+
+      top:10%;
+      left:10%;
+      position: absolute;
+      width: 400px;
+      height: 600px;
+      background-color: white;
+      margin:0 auto;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+
+
+    }
+
+    .titlep2{
+      position: absolute;
+      top:31.5%;
+
+
+      position: absolute;
+
+      background-color: white;
+      padding-left: 5px;
+      padding-right: 5px;
+
+      border:1px solid black;
+      border-bottom: none;
+      border-left: none;
+
+
+      text-align: center;
+      line-height: 0.01px;
+
+
+    }
+
+    .profileimgcontainer{
+      height:230px;
+      width: 400px;
+    }
+    .itemscontainer{
+
+      top:0;
+      left:130%;
+      position: absolute;
+      width: 800px;
+      height: 600px;
+      background-color: white;
+      margin:0 auto;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+
+    }
+    .itemscontainer1{
+
+      top:10%;
+      left:25%;
+      position: absolute;
+      width: 800px;
+      height: 600px;
+      background-color: white;
+      margin:0 auto;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+
+    }
+
+    .maincontainerps button {
+
+      border: none;
+      outline: none;
+      height: 40px;
+      color: white;
+      background: black;
+      width: 300px;
+      position: relative;
+      transform: translate(-50%, -50%);
+      left:50%;
+      margin-top: 150px;
+      top:80%;
+
+    }
+    .maincontainerps button:hover{
+      border: 2px solid black;
+      outline: none;
+
+      color: black;
+      background: white;
+      transition: 0.6s ease;
+    }
+
+    .titlei{
+      padding-left: 30px;
+    }
+
+    .itemstable{
+      margin-left: 20px;
+    }
+
+
+    .maincontainerps table{
+
+      table-layout: fixed;
+      width:360px;
+      overflow: auto;
+
+
+    }
+    .maincontainerps th,td{
+      vertical-align:top;
+      white-space: nowrap;
+    }
+
+    .maincontainerps table{
+
+      border-collapse: collapse;
+      width: 360px;
+      table-layout: fixed;
+
+      overflow: auto;
+
+
+
+    }
+
+    .maincontainerps td:first-child {
+      font-weight: bold
+
+    }
+
+    .maincontainerps td{
+
+
+       word-wrap: break-word;
+       overflow:hidden;
+       white-space:nowrap;
+       overflow-x: auto;
+
+
+
+    }
+
+    .maincontainerps tr{
+
+    }
+    .maincontainerps td:nth-child(even) {
+         border-bottom: 1px solid #ddd;
+
+
+    }
+    .maincontainerps th,td{
+      vertical-align:top;
+      white-space: nowrap;
+
+    }
+
+    .itemstable table{
+
+      border-collapse: collapse;
+      width: 360px;
+      height: 250px;
+      max-height: 10px;
+      table-layout: fixed;
+      overflow: auto;
+
+    }
+
+    .itemstable td{
+      max-width:10px;
+      height: 10px;
+      max-height: 10px;
+
+
+
+    }
+
+    .containerd1{
+      margin-top: 30px;
+      width: 400px;
+      float:right;
+      position: absolute;
+      top:10%;
+      left:50%;
+
+
+
+    }
+
+    .containerd1 p{
+       margin-right: 10px;
+    }
+
+    .containerp1{
+      width: 350px;
+      height: 350px;
+      margin-left: 30px;
+      float: left;
+      border: 1px solid black;
+      margin-top: 30px;
+
+
+
+    }
+
+    .itempagebuttons{
+      display: block;
+      bottom: 0;
+      position: absolute;
+      margin: 0 auto;
+      left:5%;
+
+    }
+
+    .itempagebuttons .pagebtn1{
+      width: 40px;
+      border: none;
+      outline: none;
+      height: 25px;
+      color: white;
+      background: black;
+      width: 40px;
+    }
+    .itempagebuttons .pagebtn1:hover{
+      border: 2px solid black;
+      outline: none;
+      color: black;
+      background: white;
+      transition: 0.6s ease;
+    }
+
+
+
+    .itemsadd input, textarea{
+      box-sizing: border-box;
+      display: block;
+      width: 50%;
+      margin: 20px;
+      margin: auto;
+      padding: 15px;
+      margin-bottom: 15px;
+
+    }
+
+    .itemsadd textarea{
+      height: 100px;
+      resize: none;
+    }
+
+
+
+    .itemsadd button{
+      border: none;
+      outline: none;
+      height: 40px;
+      color: white;
+      background: black;
+      width: 56px;
+      position: relative;
+      left:25%;
+    }
+    .itemsadd button:hover{
+      border: 2px solid black;
+      outline: none;
+      height: 40px;
+      color: black;
+      background: white;
+      transition: 0.6s ease;
+    }
+
+
+    .containeritems .itemstitle{
+      text-align: center;
+    }
+
+    .containeritems{
+
+      top:10%;
+      left:30%;
+      position: absolute;
+      width: 600px;
+      height: 600px;
+      background-color: white;
+      margin:0 auto;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+
+    }
+
+    .added-info {
+      display: none;
+      line-height:;
+      font-size: 12px;
+    	position: absolute;
+      top: 4px;
+      padding-left: 40px;
+      width: 300px;
+
+
+    }
+
+    .infosym:hover .added-info {
+
+      display: block;
+
+    }
+
+    .infosym {
+      font-size: 20px;
+      right:5%;
+      position: absolute;
+      top: 87%;
+      width: 20px;
+      border-radius: 15px;
+      height: 25px;
+
+    }
+
+    .infosym:hover {
+
+      width: 322px;
+      left: 540px;
+      transition: 0.4s ease;
+      background-color: white;
+      padding: 6px;
+      border: solid 1px black;
+
+    }
+
+    .nop1{
+
+      margin-left: 20px;
+      color: red;
+
+    }
+
+    .editprofilec{
+
+      top:10%;
+      left:37%;
+      position: absolute;
+      width: 400px;
+      height: 600px;
+      background-color: white;
+      margin:0 auto;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+
+    }
+
+    .profilecontainer2{
+
+      top:10%;
+
+      position: absolute;
+      width: 100%;
+      height: 600px;
+      background-color: none;
+      margin:0 auto;
+
+
+    }
+
+    .profilecontainer2 table{
+
+      width: 100%;
+      background: white;
+
+
+    }
+
+
+    .profilecontainer2 td{
+       border-bottom: 1px solid #ddd;
+       padding: 5px;
+
+    }
+
+    .containermsg{
+
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      position: fixed;
+      width: 600px;
+      height: 600px;
+      background-color: white;
+      margin:0 auto;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+
+    }
+
+    .containermsg p{
+
+
+    }
+
+    .msg-from{
+      border: 2px solid black;
+      position: fixed;
+      transform: translate(-50%,-50%);
+      top:16%;
+
+
+      width: 80%;
+      left:50%;
+      height:10%;
+
+    }
+
+    .msg-to{
+
+      position: fixed;
+      transform: translate(-50%,-50%);
+      top:16%;
+      border: 2px solid black;
+
+      width: 80%;
+      left:50%;
+      height:10%;
+
+    }
+    .msg-to input{
+      padding-left: 10px;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height:100%;
+      padding-right: 20px;
+      font-size: 17px;
+      border:1px solid black;
+
+    }
+
+
+
+    .msg-subject{
+      border: 2px solid black;
+      position: fixed;
+      transform: translate(-50%,-50%);
+      top:28%;
+      width: 80%;
+      left:50%;
+      height:10%;
+
+    }
+    .msg-subject1{
+      border: 2px solid black;
+      position: fixed;
+      transform: translate(-50%,-50%);
+      top:28%;
+      width: 80%;
+      left:50%;
+      height:10%;
+
+    }
+
+    .msg-body{
+      width: 50%;
+      position: fixed;
+      border: 2px solid black;
+
+      top: 60%;
+      left: 50%;
+      height: 50%;
+      width: 80%;
+      overflow: auto;
+      transform:translate(-50%,-50%);
+
+    }
+    .msg-body1{
+      width: 50%;
+      position: fixed;
+      border:2px solid black;
+      top: 60%;
+      left: 50%;
+      height: 50%;
+      width: 80%;
+
+      transform:translate(-50%,-50%);
+
+    }
+
+    .msg-title {
+      margin-left: 55px;
+    }
+
+    .msg-from p {
+
+      margin-left: 10px;
+
+    }
+
+    .msg-subject p{
+      margin-left: 10px;
+    }
+
+    .msg-body p{
+      margin-left: 10px;
+    }
+    .msg-body1 textarea{
+
+      font-size: 17px;
+      position: absolute;
+      left: 0;
+      top:0;
+      border:none;
+      border: 1px solid black;
+      width:100%;
+      text:none;
+      height: 100%;
+      resize: none;
+      overflow: auto;
+
+    }
+
+
+
+    .msg-subject1 input{
+      border:1px solid black;
+      padding-left: 10px;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height:100%;
+      padding-right: 20px;
+      font-size: 17px;
+
+    }
+    .msg-send{
+      position: fixed;
+      transform:translate(-50%,-50%);
+      top:93%;
+      left:48%;
+
+    }
+
+
+    .msg-btns1 {
+      position: fixed;
+      transform:translate(-50%,-50%);
+      top:93%;
+      left: 55%;
+    }
+    .msg-btns2 {
+      position: fixed;
+      transform:translate(-50%,-50%);
+      top:93%;
+      left: 45%;
+    }
+    .msg-btns3{
+      position: fixed;
+      transform:translate(-50%,-50%);
+      top:93%;
+      right: 5%;
+
+      }
+
+
+
+    .msg-btns button{
+      border: none;
+      outline: none;
+      height: 40px;
+      color: white;
+      background: black;
+      width: 56px;
+      position: relative;
+      left:25%;
+    }
+    .msg-btns button:hover{
+      border: 2px solid black;
+      outline: none;
+      height: 40px;
+      color: black;
+      background: white;
+      transition: 0.6s ease;
+    }
+
+    .msg-sendd button{
+      border: none;
+      outline: none;
+      height: 40px;
+      color: white;
+      background: black;
+      width: 300px;
+      position: relative;
+
+    }
+    .msg-send button:hover{
+      border: 2px solid black;
+      outline: none;
+
+      color: black;
+      background: white;
+      transition: 0.6s ease;
+    }
+
+
+    .modal{
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%,-50%) scale(0);
+      transition: 0.6s ease;
+      border: 1px solid white;
+      border-radius: 15px;
+      z-index: 10;
+      background-color: white;
+      width: 400px;
+      max-width: 80%;
+    }
+
+    .modal.active{
+      transform:translate(-50%,-50%) scale(1);
+    }
+
+    .modal-header{
+      padding: 10px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid white;
+    }
+
+    .modal-header .title {
+      font-size: 1.25rem;
+      font-weight: bold;
+
+    }
+
+    .modal-header .close-btn{
+      cursor: pointer;
+      border: none;
+      outline: none;
+      background: none;
+      font-size: 1.25rem;
+      font-weight:bold;
+
+    }
+
+    .modal-body{
+      padding: 10px 15px;
+
+    }
+
+    #overlay{
+      position: fixed;
+      opacity:0;
+      top:0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0, .5);
+      pointer-events: none;
+    }
+
+    #overlay.active{
+      pointer-events: all;
+      opacity: 1;
+
+    }
+
+    .compose-form{
+
+
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      position: fixed;
+      width: 600px;
+      height: 600px;
+      background-color: white;
+      margin:0 auto;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+
+    }
+
+    .containermsg form{
+      margin-left: 30px;
+    }
+
+    .composebtn{
+
+
+
+    }
+
+    .inboxbtn:hover{
+
+      border-bottom: 1px solid black;
+      transition: 0.6s ease;
+
+    }
+
+    .outboxbtn:hover{
+
+      border-bottom: 1px solid black;
+      transition: 0.6s ease;
+
+    }
+
+
+
+    .composebtn:hover{
+      border-bottom: 1px solid black;
+      transition: 0.6s ease;
+    }
+
+    .bio-main input{
+      box-sizing: border-box;
+      display: block;
+      width: 80%;
+      margin: 10px;
+      margin: auto;
+      padding: 3px;
+
+
+
+    }
+
+    .bio-main p{
+      margin-left: 41px;
+      line-height: 0.1px;
+      font-size: 14px;
+    }
+
+    .profile-title{
+      text-align: center;
+    }
+
+
+        .bio-main textarea{
+          width:80%;
+          resize: none;
+          overflow: auto;
+          height: 18%;
+        }
+
+
+
+        .itemsadd button{
+          border: none;
+          outline: none;
+          height: 40px;
+          color: white;
+          background: black;
+          width: 56px;
+          position: relative;
+          left:25%;
+        }
+        .itemsadd button:hover{
+          border: 2px solid black;
+          outline: none;
+          height: 40px;
+          color: black;
+          background: white;
+          transition: 0.6s ease;
+        }
+
+        .updateprofile-btn input:hover{
+          border: 2px solid black;
+          outline: none;
+          height: 40px;
+          color: black;
+          background: white;
+          transition: 0.6s ease;
+        }
+
+        .updateprofile-btn input {
+
+          border: none;
+          outline: none;
+          height: 40px;
+          color: white;
+          background: black;
+          width: 80%;
+          position: relative;
+          left;
+
+        }
+
+        .updateprofilebtn{
+          height:100px;
+        }
+
+        .livechatcontainer{
+          top:55%;
+          left:27%;
+          transform:translate(-50%, -50%);
+          position: fixed;
+          width: 50%;
+          height: 600px;
+          background-color: white;
+          margin:0 auto;
+          box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+          box-sizing: border-box;
+
+        }
+
+        .messagescontainer{
+          background: white;
+          border:2px solid black;
+          width: 80%;
+          height: 70%;
+          position: fixed;
+          left: 50%;
+          top:40%;
+          transform: translate(-50%,-50%);
+        }
+
+        .livechatcontainer button{
+          border: none;
+          outline: none;
+          height: 40px;
+          color: white;
+          background: black;
+          width: 80%;
+          position: fixed;
+          transform: translate(-50%,-50%);
+          left: 50%;
+          top: 92%;
+
+        }
+        .livechatcontainer textarea{
+          border: 2px solid black;
+          outline: none;
+          height: 40px;
+          background: white;
+          width: 80%;
+          height: 70px;
+          resize:none;
+          position: fixed;
+          transform: translate(-50%,-50%);
+          left: 50%;
+          top: 82%;
+
+        }
+
+        .livechatcontainer button:hover{
+          border: 2px solid black;
+          outline: none;
+          height: 40px;
+          color: black;
+          background: white;
+          transition: 0.6s ease;
+        }
+
+        #livetableouter{
+          position: relative;
+        }
+
+        #livechattable{
+          white-space: nowrap;
+          width:100%;
+          overflow: auto;
+          word-wrap: break-word;
+          table-layout: fixed;
+          text-align: left;
+          max-height:100%;
+          display: block;
+          border-collapse: collapse;
+
+        }
+
+        #livechattable tr{
+
+
+
+
+        }
+
+        #livechattable td{
+          border-bottom:1px solid black;
+          overflow: auto;
+          width:100%;
+          border-collapse: collapse;
+
+
+
+        }
