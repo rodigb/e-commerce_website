@@ -39,4 +39,24 @@ installing it on windows, click on windows host.
 * Install the code into the directory with the following command: <br>
 ```git clone https://github.com/rodigb/e-commerce_website.git```
 
+## Installing the local server and database
+
+* Now that the websites code has been downloaded, we need to set up both the server and the database using XAMPP
+
+* Download the installation package from the official website [Here] (https://www.apachefriends.org/index.html)
+
+* Once downloaded, move the installation package into the git directory we just created in the previous steps.
+* Make the file executable by using the **chmod** command <br>
+```chmod 755 [package name that you installed]```
+
+*execute the file and start the installation with the following: 
+
+```ls -l [package name]```
+
+```sudo ./[package name]```
+
+* To run XAMPP and get the local server ready use the following command:
+
+```sudo /opt/lampp/lampp start```
+
 
