@@ -117,7 +117,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `first_name`, `last_name`, `email`, `password`, `active`, `username`, `profileimg`, `bio`, `product1`, `desc1`, `img1`, `size1`, `price1`, `product2`, `desc2`, `img2`, `size2`, `price2`, `product3`, `desc3`, `img3`, `size3`, `price3`, `product4`, `desc4`, `img4`, `size4`, `price4`, `product5`, `desc5`, `img5`, `size5`, `price5`) VALUES
-(1, 'Deeps', 'Paul', 'rodix08@gmail.com', 'admin12345', 1, 'admin', 'Screenshot (1).png', 'i sell 2nd hand Primark clothing!', 'addidas', 'adkfjkpasdjadkpls', 'Screenshot (1).png', 'Medium, Large only', '10000.00', 'a', 'a', 'Screenshot (1).png', '', '1.00', 'aaa', 'askdkasdm', 'Screenshot (1).png', '', '10000.00', 'aaa', 'askdkasdm', 'Screenshot (1).png', '', '10000.00', 'aa', 'asdasdsda', 'Screenshot (1).png', '', '1.10');
+(1, 'Deeps', 'Paul', 'Test', 'Test', 1, 'admin', 'Screenshot (1).png', 'i sell 2nd hand Primark clothing!', 'addidas', 'adkfjkpasdjadkpls', 'Screenshot (1).png', 'Medium, Large only', '10000.00', 'a', 'a', 'Screenshot (1).png', '', '1.00', 'aaa', 'askdkasdm', 'Screenshot (1).png', '', '10000.00', 'aaa', 'askdkasdm', 'Screenshot (1).png', '', '10000.00', 'aa', 'asdasdsda', 'Screenshot (1).png', '', '1.10');
 
 --
 -- Indexes for dumped tables
