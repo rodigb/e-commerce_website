@@ -2,9 +2,10 @@
 
 This README file will go through:
 
-* How to install a Linux VM on Windows
+* Installing a Linux VM
 * Downloading the website code from GitHub onto the Linux VM
 * Downloading / setting up a local webserver on the Linux VM
+* Downloading / setting up the local database (MySQL)
 * Running the website on the local server
 * Shell Script that automatically does it for you (OPTIONAL)
 
@@ -15,9 +16,7 @@ installing it on windows, click on windows host.
 
 Also be sure to download the Linux OS itself from [Here](https://www.kali.org/get-kali/#kali-platforms).
 
-Once installed, choose a path. For this virtual machine I would use Ubuntu x64. Choose how much memory
-you would like the VM to be able to use according to how much memory your computer could afford to 
-allocate.
+This README presumes you already have a VM ready, if not follow the video tutorial [Here](https://www.youtube.com/watch?v=hvkJv71PsCs&ab_channel=GaryExplains)
 
 Click create and go with the default settings.
 
