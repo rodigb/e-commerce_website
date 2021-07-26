@@ -19,14 +19,20 @@ This README **presumes that you already have a Linux virtual machine up and read
 
 ## Installing the local server and database
 
+* Open the terminal and create a directory called xamppinstall and navigate to it.
+
+```mkdir ~/xamppinstall```<br>
+```cd ~/xampinstall```
+
 * Download the installation package from the official website [Here] (https://www.apachefriends.org/index.html)
 
-* Once downloaded, move the installation package into the git directory we just created in the previous steps.
-* Make the file executable by using the **chmod** command
+* Once downloaded, move the installation package into the xamppinstall directory
+* Navigate to the path using cd and make the file executable by using the **chmod** command
 
+```cd [desired path]```
 ```chmod 755 [package name that you installed]```
 
-* execute the file and start the installation with the following: 
+* Execute the file and start the installation with the following: 
 
 ```ls -l [package name]```
 
@@ -58,26 +64,31 @@ This README **presumes that you already have a Linux virtual machine up and read
 
 ```git clone https://github.com/rodigb/e-commerce_website.git```
 
-## Moving the folder
-
-* move the website folder into the opt folder where xampp was installed so you can access it on the web via htdocs with the following command:
+* Move the website folder into the opt folder where xampp was installed so you can access it on the web via htdocs with the following command:
 
 ```sudo mv /home/[user]/git /opt/lamp/htdocs ```
 
+* You should now be able to access the website by typing ```localhost/git/fyp2/Home.php ```
+
 ## Importing the database
 
-* create a database, with the name ```webdb```
-* once created click import databases and choose the sql file from the git folder you installed earlier.[pictures?]
+* Navigate to localhost phpmyadmin once the server and database is up running [image]
+* Create a database, with the name ```webdb```
+* Once created, click import databases and choose the sql file from the git folder you installed earlier (webdb.sql) [pictures?]
+
+You should now be able to access the website with the database attatched.
+
+NOTE: THIS WEBSITE HAS OUTDATED PHPMAILER AND IS OUTDATED ITSELF, NEW VERSION WILL BE UPLOADED SOON. FOR NOW AVOID REGESTERING AND LOG IN WITH THE FOLLOWING DETAILS:
+
+Username: Test
+Password: Test
 
 ## Shell Script
 
 * Only run the shell script once you have installed XAMPP.
 
 
-NOTE: THIS WEBSITE HAS OUTDATED PHPMAILER AND IS OUTDATED ITSELF, NEW VERSION WILL BE UPLOADED SOON. FOR NOW AVOID REGESTERING AND LOG IN WITH THE FOLLOWING DETAILS:
 
-Username: Test
-Password: Test
 
 ## References
 
