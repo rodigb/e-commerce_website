@@ -2,9 +2,9 @@
 
 This README file will go through:
 
-* Setting up both the local server as well as the database (XAMPP).
-* Downloading the website code from GitHub onto the Linux VM
-* Running the website on the local server
+* Setting up both the local server as well as the database using XAMPP.
+* Downloading the website code from GitHub onto the Linux VM.
+* Running the website on the local server.
 * Shell Script that automatically does it for you (OPTIONAL)
 
 ## Installing the Linux VM
@@ -27,9 +27,9 @@ This README **presumes that you already have a Linux virtual machine up and read
 * Download the installation package from the official website [Here] (https://www.apachefriends.org/index.html)
 
 * Once downloaded, move the installation package into the xamppinstall directory
-* Navigate to the path using cd and make the file executable by using the **chmod** command
+* Head back to the terminal and make the file executable by using the **chmod** command
 
-```cd [desired path]```
+
 ```chmod 755 [package name that you installed]```
 
 * Execute the file and start the installation with the following: 
@@ -38,11 +38,11 @@ This README **presumes that you already have a Linux virtual machine up and read
 
 ```sudo ./[package name]```
 
-* To run XAMPP and get the local server ready use the following command:
+* If XAMPP doesnt run automatically after installation, use the following command:
 
 ```sudo /opt/lampp/lampp start```
 
-* Start up both the Apache webserver and MySQL database [PICTURE?]
+* On the control panel, start up both the Apache webserver and MySQL database. [PICTURE?]
 
 ## Downloading the code from GitHub
 
@@ -73,7 +73,8 @@ database before you run the website!
 
 ## Importing the database
 
-* Navigate to localhost phpmyadmin once the server and database is up running [image]
+* Head to your internet browser and type "localhost", it should redirect to the dashboard.
+* From the dashboard, navigate to phpmyadmin once the server and database is up running [image]
 * Create a database, with the name ```webdb```
 * Once created, click import databases and choose the sql file from the git folder you installed earlier (webdb.sql) [pictures?]
 Path should be /opt/lampp/htdocs/git/e-commerce_website/webdb.sql
