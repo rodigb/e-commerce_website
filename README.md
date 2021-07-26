@@ -66,15 +66,17 @@ This README **presumes that you already have a Linux virtual machine up and read
 
 * Move the website folder into the opt folder where xampp was installed so you can access it on the web via htdocs with the following command:
 
-```sudo mv /home/[user]/git /opt/lamp/htdocs ```
+```sudo mv /home/[user]/git /opt/lampp/htdocs ```
 
-* You should now be able to access the website by typing ```localhost/git/fyp2/Home.php ```
+* You should now be able to access the website by typing ```localhost/git/e-commerce_website/fyp2/Home.php ``` into your web browser, but be sure to set up the
+database before you run the website!
 
 ## Importing the database
 
 * Navigate to localhost phpmyadmin once the server and database is up running [image]
 * Create a database, with the name ```webdb```
 * Once created, click import databases and choose the sql file from the git folder you installed earlier (webdb.sql) [pictures?]
+Path should be /opt/lampp/htdocs/git/e-commerce_website/webdb.sql
 
 You should now be able to access the website with the database attatched.
 
