@@ -95,24 +95,19 @@ You should now be able to access the website with the database attatched.
 NOTE: THIS WEBSITE HAS OUTDATED PHPMAILER AND IS OUTDATED ITSELF, NEW VERSION WILL BE UPLOADED SOON. FOR NOW AVOID REGESTERING AND LOG IN WITH THE FOLLOWING DETAILS:
 
 Username: Test
+
 Password: Test
 
 ## Shell Script
 
-* Only run the shell script once you have installed XAMPP.
-* The file is in the code repository you downloaded
-* to execute the shell script, type into the terminal:
 
 ```bash shellscript.sh```
-
-NOTE: The shell script is only used for downloading the code from github!
 
 Once you have run the shell script, be sure to move the website files into htdocs:
 
 ```sudo mv /home/[user]/git/opt/lampp/htdocs ```
 
-
-## References
+Since the shell script does not set up the database, you must do this manually by following the database steps.
 
 
 
