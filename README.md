@@ -100,6 +100,19 @@ Password: Test
 
 ## Shell Script
 
+* To install the shell script from github you must first have git:
+
+```sudo apt-get install git```
+
+* Type the following into the terminal:
+
+```git clone https://github.com/rodigb/e-commerce_website-script```
+
+* Naviagte to the file:
+
+```cd Desktop/e-commerce_website-script```
+
+* Run the script
 
 ```bash shellscript.sh```
 
