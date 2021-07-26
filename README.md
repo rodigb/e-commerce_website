@@ -74,9 +74,20 @@ database before you run the website!
 ## Importing the database
 
 * Head to your internet browser and type "localhost", it should redirect to the dashboard.
-* From the dashboard, navigate to phpmyadmin once the server and database is up running [image]
+
+* From the dashboard, navigate to phpmyadmin once the server and database is up running ![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/1.png)
+
+
 * Create a database, with the name ```webdb```
-* Once created, click import databases and choose the sql file from the git folder you installed earlier (webdb.sql) [pictures?]
+
+![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/2.png)
+
+
+* Once created, click import databases and choose the sql file from the git folder you installed earlier (webdb.sql) 
+
+![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/4.png)  ![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/3.png)
+
+
 Path should be /opt/lampp/htdocs/git/e-commerce_website/webdb.sql
 
 You should now be able to access the website with the database attatched.
