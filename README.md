@@ -42,7 +42,9 @@ This README **presumes that you already have a Linux virtual machine up and read
 
 ```sudo /opt/lampp/lampp start```
 
-* On the control panel, start up both the Apache webserver and MySQL database. [PICTURE?]
+* On the control panel, start up both the Apache webserver and MySQL database. Make sure the lights are green beside it. 
+
+![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/5.png)
 
 ## Downloading the code from GitHub
 
@@ -118,7 +120,7 @@ Password: Test
 
 Once you have run the shell script, be sure to move the website files into htdocs:
 
-```sudo mv /home/[user]/git/opt/lampp/htdocs ```
+```sudo mv /home/[user]/git /opt/lampp/htdocs ```
 
 Since the shell script does not set up the database, you must do this manually by following the database steps.
 
