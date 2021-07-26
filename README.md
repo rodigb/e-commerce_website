@@ -24,10 +24,10 @@ This README **presumes that you already have a Linux virtual machine up and read
 ```mkdir ~/xampinstall```<br>
 ```cd ~/xampinstall```
 
-* Download the installation package from the official website [Here](https://www.apachefriends.org/index.html)
+* Download the installation package from the official website [Here](https://www.apachefriends.org/index.html).
 
-* Once downloaded, move the installation package into the xamppinstall directory
-* Head back to the terminal and make the file executable by using the **chmod** command
+* Once downloaded, move the installation package into the xamppinstall directory.
+* Head back to the terminal and make the file executable by using the **chmod** command.
 
 
 ```chmod 755 [package name that you installed]```
@@ -77,20 +77,20 @@ database before you run the website!
 
 * Head to your internet browser and type "localhost", it should redirect to the dashboard.
 
-* From the dashboard, navigate to phpmyadmin once the server and database is up running ![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/1.png)
+* From the dashboard, navigate to phpmyadmin once the server and database is up running. ![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/1.png)
 
 
-* Create a database, with the name ```webdb```
+* Create a database, with the name ```webdb```.
 
 ![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/2.png)
 
 
-* Once created, click import databases and choose the sql file from the git folder you installed earlier (webdb.sql), make sure that the database path looks like this.
+* Once created, click import databases and choose the sql file from the git folder you installed earlier (webdb.sql). When importing double check to ensure that the database path is correct.
 
 ![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/4.png)  ![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/3.png)
 
 
-Path should be /opt/lampp/htdocs/git/e-commerce_website/webdb.sql
+Path should be /opt/lampp/htdocs/git/e-commerce_website/webdb.sql.
 
 You should now be able to access the website with the database attatched.
 
