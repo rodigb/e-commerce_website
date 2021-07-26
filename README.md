@@ -124,5 +124,7 @@ Once you have run the shell script, be sure to move the website files into htdoc
 
 Since the shell script does not set up the database, you must do this manually by following the database steps.
 
+Once complete you can navigate to the home page via "localhost/git/e-commerce_website/fyp2/Home.php"
+
 
 
