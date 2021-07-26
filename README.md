@@ -21,10 +21,10 @@ This README **presumes that you already have a Linux virtual machine up and read
 
 * Open the terminal and create a directory called xamppinstall and navigate to it.
 
-```mkdir ~/xamppinstall```<br>
+```mkdir ~/xampinstall```<br>
 ```cd ~/xampinstall```
 
-* Download the installation package from the official website [Here] (https://www.apachefriends.org/index.html)
+* Download the installation package from the official website [Here](https://www.apachefriends.org/index.html)
 
 * Once downloaded, move the installation package into the xamppinstall directory
 * Head back to the terminal and make the file executable by using the **chmod** command
@@ -66,7 +66,7 @@ This README **presumes that you already have a Linux virtual machine up and read
 
 * Move the website folder into the opt folder where xampp was installed so you can access it on the web via htdocs with the following command:
 
-```sudo mv /home/[user]/git /opt/lampp/htdocs ```
+```sudo mv /home/[user]/git/opt/lampp/htdocs ```
 
 * You should now be able to access the website by typing ```localhost/git/e-commerce_website/fyp2/Home.php ``` into your web browser, but be sure to set up the
 database before you run the website!
@@ -89,8 +89,16 @@ Password: Test
 ## Shell Script
 
 * Only run the shell script once you have installed XAMPP.
+* The file is in the code repository you downloaded
+* to execute the shell script, type into the terminal:
 
+```bash shellscript.sh```
 
+NOTE: The shell script is only used for downloading the code from github!
+
+Once you have run the shell script, be sure to move the website files into htdocs:
+
+```sudo mv /home/[user]/git/opt/lampp/htdocs ```
 
 
 ## References
