@@ -85,7 +85,7 @@ database before you run the website!
 ![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/2.png)
 
 
-* Once created, click import databases and choose the sql file from the git folder you installed earlier (webdb.sql) 
+* Once created, click import databases and choose the sql file from the git folder you installed earlier (webdb.sql), make sure that the database path looks like this.
 
 ![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/4.png)  ![alt text](https://github.com/rodigb/e-commerce_website/blob/main/VM%20images/3.png)
 
