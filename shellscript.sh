@@ -14,3 +14,4 @@ chmod 755 xampp-linux-x64-8.0.8-1-installer.run
 ls -l xampp-linux-x64-8.0.8-1-installer.run
 sudo ./xampp-linux-x64-8.0.8-1-installer.run #run the installer
 
+echo "installation successfull, now move the website repository into htdocs manually."
